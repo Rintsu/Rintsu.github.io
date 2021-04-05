@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "/static/css/main.db3b6b9f.chunk.css",
+    "main.js": "/static/js/main.83871919.chunk.js",
+    "main.js.map": "/static/js/main.83871919.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.d290e622.js",
+    "runtime-main.js.map": "/static/js/runtime-main.d290e622.js.map",
+    "static/js/2.89137136.chunk.js": "/static/js/2.89137136.chunk.js",
+    "static/js/2.89137136.chunk.js.map": "/static/js/2.89137136.chunk.js.map",
+    "static/js/3.9b88508a.chunk.js": "/static/js/3.9b88508a.chunk.js",
+    "static/js/3.9b88508a.chunk.js.map": "/static/js/3.9b88508a.chunk.js.map",
+    "index.html": "/index.html",
+    "static/css/main.db3b6b9f.chunk.css.map": "/static/css/main.db3b6b9f.chunk.css.map",
+    "static/js/2.89137136.chunk.js.LICENSE.txt": "/static/js/2.89137136.chunk.js.LICENSE.txt",
+    "static/media/index.css": "/static/media/Team401.7cfda189.ttf",
+    "static/media/brekky.15e3900c.png": "/static/media/brekky.15e3900c.png",
+    "static/media/clip.4a1edf4d.mp3": "/static/media/clip.4a1edf4d.mp3",
+    "static/media/swoosh.7c2274a0.png": "/static/media/swoosh.7c2274a0.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.d290e622.js",
+    "static/js/2.89137136.chunk.js",
+    "static/css/main.db3b6b9f.chunk.css",
+    "static/js/main.83871919.chunk.js"
+  ]
+}
