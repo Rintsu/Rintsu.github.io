@@ -1,0 +1,169 @@
+.about-page {
+    background-color: whitesmoke;
+    margin: 0;
+    overflow: hidden;
+    height: 100vh;
+    width: 100vw;
+  }
+
+  .wrapper3 {
+    display: grid;
+    grid-template-columns: 20% 60% 20%;
+    grid-template-rows: auto auto auto auto;
+    place-items: center;
+  }
+
+  .header-about-me  {
+    font-size: 4em;
+    text-transform: uppercase;
+    letter-spacing: .1em;
+    white-space: nowrap;
+    grid-column: 1 / 1;
+    grid-row: 2 / 4;
+    transform: rotate(-90deg);
+  }
+
+  .rather-be-grid {
+    display: grid;
+    grid-template-columns: 100%;
+    grid-template-rows: 10em 3em 5em 8em 10em;
+    grid-column: 2 / 3;
+    grid-row: 3 / 3;
+    margin-top: 4em;
+    width: 100%;
+    align-items: center;
+    justify-items: center;
+  }
+
+  .bio {
+    grid-column: 1 / 1;
+    grid-row: 1 / 1;
+    text-align: center;
+  }
+
+  .extra {
+    grid-column: 1 / 1;
+    grid-row: 2 / 2;
+    text-align: center;
+    font-size: x-small;
+    align-self: end;
+  }
+
+  .rather-be-1 {
+    grid-column: 1 / 1;
+    grid-row: 3 / 3;
+  }
+  .rather-be-2 {
+    grid-column: 1 / 1;
+    grid-row: 4 / 4;
+  }
+  .rather-be-3 {
+    grid-column: 1 / 1;
+    grid-row: 5 / 5;
+  }
+
+  #roller-pic,
+  #breaky-pic {
+    max-width: 100%;
+    height: auto;
+  }
+
+/*******************
+    BUTTONS
+*******************/
+#rollerskating,
+#breakfast {
+  width: auto;
+  height: 3em;
+  background-color: transparent;
+  color: black;
+  text-transform: uppercase;
+  letter-spacing: .1em;
+  border: none;
+  position: relative;
+  font-family: 'IndiePress';
+  font-size: larger;
+  outline: none;
+  cursor: pointer;
+}
+
+#rollerskating:before,
+#breakfast:before,
+#rollerskating:after,
+#breakfast:after {
+  position: absolute;
+  left: 0;
+  content: '';
+  width: 100%;
+  height: 2px;
+  background: black;
+  transform: scaleX(0);
+  transform-origin: center;
+  transition: all .4s;
+}
+#rollerskating:before,
+#breakfast:before {
+  top: 0;
+}
+#rollerskating:after,
+#breakfast:after {
+  bottom: 0;
+}
+#rollerskating:hover,
+#breakfast:hover {
+  letter-spacing: 2px;
+}
+#rollerskating:hover:before,
+#breakfast:hover:before,
+#rollerskating:hover:after,
+#breakfast:hover:after {
+  transform: scaleX(1);
+}
+
+.best-song-ever {
+  font-family: 'IndiePress';
+  font-size: larger;  
+  text-transform: uppercase;
+  letter-spacing: .1em;
+  text-align: center;
+}
+
+/* audio {
+  background-color:rgba(223, 149, 233, 0.92);
+} */
+
+
+/*************************
+    MEDIA QUERIES 
+*************************/
+
+@media only screen and (max-width:800px) {
+
+  .about-page {
+    overflow: auto;
+  }
+
+  .header-about-me {
+    transform: none;
+    grid-column: 2 / 2;
+    grid-row: 2 / 2;
+    font-size: 2em;
+  }
+
+  .rather-be-grid {
+    grid-template-rows: 10em 2em 3em 5em 8em 10em;
+  }
+  .extra {
+    grid-row: 3 / 3;
+  }
+  .rather-be-1 {
+    grid-row: 4 / 4;
+  }
+  .rather-be-2 {
+    grid-row: 5 / 5;
+  }
+  .rather-be-3 {
+    grid-row: 6 / 6;
+  } 
+
+}

@@ -7,7 +7,32 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 
-code {
+/* code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+} */
+
+
+/***************/
+
+@font-face {
+  font-family: 'IndiePress';
+  src: local('IndiePress'), url(../src/assets/Indiepress-KEGA.otf) format('opentype');
 }
+
+@font-face {
+  font-family: 'Team401';
+  src: local('Team401'), url(../src/assets/Team401.ttf) format('truetype');
+}
+
+@font-face {
+  font-family: 'Aurelie';
+  src: local('Aurelie'), url(../src/assets/AurelieSmith.otf) format('opentype');
+}
+
+@font-face {
+  font-family: 'PressStart';
+  src: local('PressStart'), url(../src/assets/PressStart2P.ttf) format('truetype');
+}
+
+
